@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enciclopédia de Monstros</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="carrossel/carrossel.css">
+</head>
+<body>
+    <div class="background-carousel"></div>
+
+    <header>
+        <h1>Enciclopédia de Titãs</h1>
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="../index.html">Fazer o Teste</a></li>
+                <li><a href="monstros.html" aria-current="page">Enciclopédia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="kaiju-list-section">
+            <h2>Arquivos da Monarch</h2>
+            <p>Selecione um Titã para visualizar seus dados confidenciais.</p>
+            
+            <div id="kaiju-grid" class="kaiju-grid">
+                </div>
+        </article>
+
+        <article id="kaiju-detail-section" class="hidden" aria-live="polite">
+            <button id="back-btn" class="btn-primary">← Voltar para a Lista</button>
+            
+            <div class="kaiju-card" style="margin-top: 20px;">
+                <h3 id="detail-name">Nome do Kaiju</h3>
+                <figure>
+                    <img id="detail-image" src="" alt="Imagem do Kaiju">
+                    <figcaption id="detail-alignment">Alinhamento: ???</figcaption>
+                </figure>
+                
+                <ul class="kaiju-stats">
+                    <li><strong>Altura:</strong> <span id="detail-height">---</span></li>
+                    <li><strong>Peso:</strong> <span id="detail-weight">---</span></li>
+                    <li><strong>Habilidade Principal:</strong> <span id="detail-ability">---</span></li>
+                    <li><strong>Primeira Aparição:</strong> <span id="detail-movie">---</span></li>
+                    <li><strong>Aparições na Franquia:</strong> <span id="detail-movies-count">---</span> filmes</li>
+                </ul>
+                
+                <p id="detail-description"></p>
+                <div id="trailer-container" class="video-container hidden">
+                    <h3 style="margin-top: 1.5rem; margin-bottom: 1rem; border-top: 1px solid #333; padding-top: 1rem;">Trailer</h3>
+                    <iframe id="detail-trailer" width="100%" height="400" src="" title="Trailer do Kaiju" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Projeto Kaiju Web. Criado para disciplina Aplicações para Internet.</p>
+        <p>Aluno: Marcelo Camilo Gomes.</p>
+    </footer>
+
+    <script src="carrossel/carrossel.js"></script>
+    <script src="monstros.js"></script>
+</body>
+</html>

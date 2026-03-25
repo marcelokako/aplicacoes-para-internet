@@ -1,0 +1,112 @@
+{
+    "Lawful Good": {
+        "nome": "Mothra", 
+        "descricao": "Protetora divina da Terra. Você coloca o bem-estar dos outros acima do seu e luta para manter a paz e a harmonia no mundo.",
+        "habilidade": "Raios Divinos e Seda Imobilizadora", 
+        "primeiraAparicao": "Mothra (1961)",
+        "qtdFilmes":9,
+        "Altura": "120 metros",
+        "Peso": "25.000 toneladas",
+        "img": "kaijus/Mothra_2004.jpg",
+        "trailer": "https://www.youtube.com/embed/IWU3gF1_3xk"
+    },
+    "Neutral Good": {
+        "nome": "Kong", 
+        "descricao": "Um guardião territorial com um bom coração. Você não liga muito para regras globais, mas defende ferozmente aqueles que considera família.",
+        "habilidade": "Força Bruta e Inteligência Primata", 
+        "primeiraAparicao": "King Kong (1933)" ,
+        "qtdFilmes":13,
+        "Altura": "104 metros",
+        "Peso": "90.000 toneladas",
+        "img": "kaijus/king-kong-1933-wallpapers.jpg",
+        "trailer": "https://www.youtube.com/embed/PbrikL8IjXM"
+    },
+    "Chaotic Good": {
+        "nome": "Godzilla (Showa)", 
+        "descricao": "A força incontrolável da natureza. Você busca apenas o equilíbrio. Se algo ameaça a balança do mundo, você o destrói, não importa de que lado esteja.",
+        "habilidade": "Bafo Atômico", 
+        "primeiraAparicao": "Gojira (1954)" ,
+        "qtdFilmes":15,
+        "Altura": "50 metros",
+        "Peso": "20.000 toneladas",
+        "img": "kaijus/godzilla-1954-wallpapers.jpg",
+        "trailer": "https://www.youtube.com/embed/GuV-Vb1PlSU"
+    },
+    "Lawful Neutral": {
+        "nome": "Mechagodzilla", 
+        "descricao": "A máquina programada para a ordem. Você segue diretrizes estritas e faz o que é necessário para manter o sistema funcionando, sem emoções atrapalhando.",
+        "habilidade": "Canhão Zero Absoluto", 
+        "primeiraAparicao": "Godzilla vs. Mechagodzilla (1974)" ,
+        "qtdFilmes":5,
+        "Altura": "120 metros",
+        "Peso": "150.000 toneladas",
+        "img": "kaijus/showa-mechagodzilla-wallpapers.png",
+        "trailer": "https://www.youtube.com/embed/Q6nue5cHYJc"
+    },
+    "True Neutral": {
+        "nome": "Shin Godzilla", 
+        "descricao": "Uma criatura em constante e dolorosa evolução. Você não age por maldade ou heroísmo, mas por um puro e trágico instinto de sobrevivência e adaptação. Sua mera existência causa devastação absoluta enquanto você sofre mutações para superar qualquer obstáculo.", 
+        "habilidade": "Evolução Reativa e Feixes de Radiação Focados", 
+        "primeiraAparicao": "Shin Godzilla (2016)" ,
+        "qtdFilmes":1,
+        "Altura": "300 metros",
+        "Peso": "100.000 toneladas",
+        "img": "kaijus/shin-godzilla-4k-wallpapers.jpg",
+        "trailer": "https://www.youtube.com/embed/3qX1ZU3jcfU"
+    },
+    "Chaotic Neutral": {
+        "nome": "Rodan", 
+        "descricao": "O vulcão vivo. Você faz o que quer, segue quem é mais forte no momento, porém a sua simples presença causa caos natural.",
+        "habilidade": "Voo Supersônico", 
+        "primeiraAparicao": "Rodan (1956)" ,
+        "qtdFilmes":5,
+        "Altura": "100 metros",
+        "Peso": "30.000 toneladas",
+        "img": "kaijus/rodan_1993.jpg",
+        "trailer": "https://www.youtube.com/embed/fONQK87h1X0"
+    },
+    "Neutral Evil": {
+        "nome": "SpaceGodzilla", 
+        "descricao": "O conquistador calculista. Você é altamente inteligente, cria estratégias complexas e deseja dominar tudo ao seu redor com controle absoluto.",
+        "habilidade": "Cristais de Energia e Telecinese", 
+        "primeiraAparicao": "Godzilla vs. SpaceGodzilla (1994)" ,
+        "qtdFilmes":1,
+        "Altura": "120 metros",
+        "Peso": "80.000 toneladas",
+        "img": "kaijus/spacegodzilla.jpg",
+        "trailer": "https://www.youtube.com/embed/u0LTRmEoTjM"
+    },
+    "Chaotic Evil": {
+        "nome": "Destoroyah", 
+        "descricao": "A encarnação viva da morte e do fim. Você é impiedoso, genuinamente sádico e sente um prazer cruel na dor e no desespero alheio. Nascido da própria arma que mata Titãs, seu único objetivo é erradicar a vida e provar sua superioridade absoluta.", 
+        "habilidade": "Raio Micro-Oxigênio e Chifre de Energia (Katana)", 
+        "primeiraAparicao": "Godzilla vs. Destoroyah (1995)" ,
+        "qtdFilmes":1,
+        "Altura": "120 metros",
+        "Peso": "80.000 toneladas",
+        "img": "kaijus/mo_destroyah_main.jpg",
+        "trailer": "https://www.youtube.com/embed/NCNyFPRzI8c"
+    },
+    "Chaotic Evil 2": {
+        "nome": "Gigan", 
+        "descricao": "O assassino mercenário. Você é sádico e focado em causar dor, mas pensa em si mesmo primeiro e recuará se a luta não for vantajosa.",
+        "habilidade": "Lâminas e Serra Abdominal", 
+        "primeiraAparicao": "Godzilla vs. Gigan (1972)" ,
+        "qtdFilmes":3,
+        "Altura": "120 metros",
+        "Peso": "60.000 toneladas",
+        "img": "kaijus/Gigan_2004_3.jpg",
+        "trailer": "https://www.youtube.com/embed/7wuS1WS-0FY"
+    },
+    "Lawful Evil": {
+        "nome": "King Ghidorah", 
+        "descricao": "O imperador tirânico do cosmos. Você não busca a destruição irracional, mas sim a submissão absoluta. Para você, o universo precisa de ordem, e essa ordem é ditada pela sua vontade. Você conquista mundos para governá-los com garras de ferro, exigindo lealdade dos mais fracos e punindo qualquer sinal de rebelião ou desobediência com tempestades implacáveis.",
+        "habilidade": "Raios Gravitacionais e Controle Meteorológico", 
+        "primeiraAparicao": "Ghidorah, the Three-Headed Monster (1964)" ,
+        "qtdFilmes":6,
+        "Altura": "140 metros",
+        "Peso": "70.000 toneladas",
+        "img": "kaijus/Ghidorah_Showa_1.jpg",
+        "trailer": "https://www.youtube.com/embed/HNqlaMxNdb4"
+    }
+}

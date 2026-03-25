@@ -1,0 +1,22 @@
+.background-carousel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.15;
+    transition: background-image 2s ease-in-out;
+}
+
+header, main, footer {
+    position: relative;
+    z-index: 1;
+}
+
+main article {
+    background-color: rgba(18, 18, 18, 0.9);
+}

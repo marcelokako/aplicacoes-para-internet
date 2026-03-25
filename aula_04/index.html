@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual Kaiju Você É? | Descubra seu Titã Interior</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="carrossel/carrossel.css">
+</head>
+<body>
+    <div class="background-carousel"></div>
+    <header>
+        <h1>Qual Kaiju Você É?</h1>
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html" aria-current="page">Fazer o Teste</a></li>
+                <li><a href="monstros.html">Enciclopédia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="intro-section">
+            <h2>Descubra sua Verdadeira Natureza</h2>
+            <p>Você é um protetor da Terra, uma força implacável da natureza ou um destruidor vindo do espaço? Responda a este questionário de personalidade e descubra qual Titã do universo de Godzilla reflete sua alma.</p>
+            <button id="start-btn" class="btn-primary" aria-label="Iniciar o questionário">Iniciar Teste</button>
+        </article>
+
+        <article id="quiz-section" class="hidden" aria-live="polite">
+            <h2>Análise em Andamento...</h2>
+            <form id="quiz-form">
+                <fieldset id="question-container">
+                    <legend id="question-text">Carregando pergunta...</legend>
+                    
+                    <div id="options-container">
+                        </div>
+                </fieldset>
+
+                <div class="form-actions">
+                    <p id="progress-text">Pergunta 1 de X</p>
+                    <button type="submit" id="next-btn" class="btn-primary">Próxima Pergunta</button>
+                </div>
+            </form>
+        </article>
+
+        <article id="result-section" class="hidden" aria-live="assertive">
+            <h2>Alinhamento Concluído!</h2>
+            <p>Sua assinatura radioativa bate com a do Kaiju:</p>
+            
+            <div class="kaiju-card">
+                <h3 id="kaiju-name">Nome do Kaiju</h3>
+                <figure>
+                    <img id="kaiju-image" src="" alt="Imagem do Kaiju revelado">
+                    <figcaption id="kaiju-alignment">Alinhamento: ???</figcaption>
+                </figure>
+                
+                <ul class="kaiju-stats">
+                    <li><strong>Altura:</strong> <span id="kaiju-height">---</span></li>
+                    <li><strong>Peso:</strong> <span id="kaiju-weight">---</span></li>
+                    <li><strong>Habilidade Principal:</strong> <span id="kaiju-ability">---</span></li>
+                    <li><strong>Primeira Aparição:</strong> <span id="kaiju-movie">---</span></li>
+                    <li><strong>Aparições na Franquia:</strong> <span id="kaiju-movies-count">---</span> filmes</li>
+                </ul>
+                
+                <p id="kaiju-description">Descrição detalhada da personalidade e lore do monstro vai aparecer aqui.</p>
+                <div id="kaiju-trailer-container" class="video-container hidden">
+                    <h3 style="margin-top: 1.5rem; margin-bottom: 1rem; border-top: 1px solid #333; padding-top: 1rem;">Trailer</h3>
+                    <iframe id="kaiju-trailer" width="100%" height="400" src="" title="Trailer do Kaiju" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <button id="restart-btn" class="btn-primary">Refazer o Teste</button>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Projeto Kaiju Web. Criado para disciplina Aplicações para Internet.</p>
+        <p>Aluno: Marcelo Camilo Gomes.</p>
+    </footer>
+
+    <script src="carrossel/carrossel.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>
